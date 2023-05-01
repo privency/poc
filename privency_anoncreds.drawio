@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-05-01T22:40:00.858Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="c3zgLNSwHdFuzcPAQf-9" version="21.2.1" type="device">
+<mxfile host="Electron" modified="2023-05-01T22:58:22.797Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="CmhC8rWa2QPGifUSCL3R" version="21.2.1" type="device">
   <diagram name="Page-1" id="qQwEXMbdSLe5uv3-hXgm">
     <mxGraphModel dx="2284" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -260,9 +260,6 @@
             <mxRectangle width="83" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="OeVJVSpPUuf5zKflXX3D-261" value="&lt;div&gt;issues potentailly many&amp;nbsp;&lt;/div&gt;&lt;div&gt;if and only if:&lt;/div&gt;&lt;div&gt;- hash ID is&lt;br&gt;&lt;/div&gt;&lt;div&gt;not already associated &lt;br&gt;&lt;/div&gt;&lt;div&gt;with another user&lt;/div&gt;&lt;div&gt;- alice does not &lt;br&gt;&lt;/div&gt;&lt;div&gt;already have &lt;br&gt;&lt;/div&gt;&lt;div&gt;an active Voting AnonCred&lt;/div&gt;&lt;div&gt;- existing revoked&amp;nbsp;&lt;/div&gt;&lt;div&gt;AnonCred&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;associated&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;with Alice&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;are bound to&amp;nbsp;&lt;/div&gt;&lt;div&gt;the same Hash Secret&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="310" y="935" width="160" height="200" as="geometry" />
-        </mxCell>
         <mxCell id="OeVJVSpPUuf5zKflXX3D-263" value="Proposal Vote AnonCred" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="155" y="900" width="150" height="310" as="geometry" />
         </mxCell>
@@ -431,8 +428,8 @@
             <mxPoint x="450" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w4XMIHq6AyRLh-OTriUX-28" value="With this column, Privency can collude with ACME Issuer to know user id real identity&lt;br&gt;but it is technically impossible to know what they voted for because the voting identifier is using the Secret.&lt;br&gt;This column is necessary to make sure Alice can only associate one OAuth2 account with this ACME identity" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="469.25" y="850" width="600" height="60" as="geometry" />
+        <mxCell id="w4XMIHq6AyRLh-OTriUX-28" value="With this column, Privency could collude with ACME Issuer to know Alice&#39;s real identity&lt;br&gt;but it is technically impossible to know what she voted for because the voting identifier is using the Secret.&lt;br&gt;This column is necessary to make sure Alice can only associate one OAuth2 account with this ACME identity" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="840" width="600" height="60" as="geometry" />
         </mxCell>
         <mxCell id="w4XMIHq6AyRLh-OTriUX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="w4XMIHq6AyRLh-OTriUX-154" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -675,13 +672,13 @@
         <mxCell id="w4XMIHq6AyRLh-OTriUX-229" value="...after the vote has went through, Alice changes her mind" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="55" y="1608" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w4XMIHq6AyRLh-OTriUX-231" value="This column is necessary to make sure the same identifier &lt;br&gt;will always be used to uniquely identify Alice votes (made of a unique Secret per user per proposal),&amp;nbsp;&lt;br&gt;even after she revoked her credentials, and try to vote again" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="451.25" y="910" width="560" height="60" as="geometry" />
+        <mxCell id="w4XMIHq6AyRLh-OTriUX-231" value="This column is necessary to make sure the same identifier &lt;br&gt;will always be used to uniquely identify Alice votes in this specific proposal&lt;br&gt;even after she revoked her credentials, and try to vote again.&amp;nbsp;&lt;br&gt;That is because the identifier will be made of this Secret that&#39;s unique per proposal from the user&#39;s perspective." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="426.25" y="905" width="610" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="w4XMIHq6AyRLh-OTriUX-234" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.671;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="w4XMIHq6AyRLh-OTriUX-16" edge="1">
+        <mxCell id="w4XMIHq6AyRLh-OTriUX-234" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="741" y="910" as="sourcePoint" />
-            <mxPoint x="460" y="750" as="targetPoint" />
+            <mxPoint x="740" y="820" as="targetPoint" />
             <Array as="points">
               <mxPoint x="740" y="910" />
               <mxPoint x="741" y="870" />
@@ -1329,7 +1326,7 @@
         <mxCell id="RCCIjt6ZIgI7EhZnLY2O-160" value="Proposal ID: 1" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="RCCIjt6ZIgI7EhZnLY2O-159" vertex="1">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RCCIjt6ZIgI7EhZnLY2O-161" value="&lt;div&gt;Hash_Secret (Secret + Nonce &lt;b&gt;ISS&lt;/b&gt;): hash(48294+5)=&lt;b&gt;40dkd&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="RCCIjt6ZIgI7EhZnLY2O-159" vertex="1">
+        <mxCell id="RCCIjt6ZIgI7EhZnLY2O-161" value="&lt;div&gt;Hash_Secret (Secret + Nonce &lt;b&gt;ISS&lt;/b&gt;): hash(10394+5)=&lt;b&gt;40dkd&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="RCCIjt6ZIgI7EhZnLY2O-159" vertex="1">
           <mxGeometry y="60" width="200" height="50" as="geometry" />
         </mxCell>
         <mxCell id="RCCIjt6ZIgI7EhZnLY2O-162" value="Hash_ID (ACME Unique ID + Nonce ISS): hash(121A+5)=&lt;b&gt;bskjdf98&lt;/b&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="RCCIjt6ZIgI7EhZnLY2O-159" vertex="1">
@@ -1446,11 +1443,14 @@
         <mxCell id="RCCIjt6ZIgI7EhZnLY2O-190" value="Hash_ID (ACME Unique ID + Nonce ISS): hash(121A+5)=&lt;b&gt;bskjdf98&lt;/b&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="RCCIjt6ZIgI7EhZnLY2O-187" vertex="1">
           <mxGeometry y="140" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="RCCIjt6ZIgI7EhZnLY2O-195" value="If Alice loses her Secret &lt;br&gt;after she registered to a proposal, &lt;br&gt;she cannot vote again.&lt;br&gt;This is important to ensure Alice cannot vote twice &lt;br&gt;by revoking her credential and using a new Secret.&amp;nbsp;&lt;br&gt;If we&#39;d allow that, &lt;br&gt;there would be no way &lt;br&gt;to associate Alice&#39;s previous voting identifier &lt;br&gt;with the new one." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="RCCIjt6ZIgI7EhZnLY2O-195" value="If Alice loses her Secret &lt;br&gt;after she registered to a proposal, &lt;br&gt;she cannot vote again for this specific proposal.&lt;br&gt;This is important to ensure Alice cannot vote twice &lt;br&gt;by revoking her credential and using a new Secret.&amp;nbsp;&lt;br&gt;If we&#39;d allow that, &lt;br&gt;by design there would be no way &lt;br&gt;to associate Alice&#39;s previous voting identifier &lt;br&gt;with the new one." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="440" y="4200" width="300" height="140" as="geometry" />
         </mxCell>
         <mxCell id="OeVJVSpPUuf5zKflXX3D-289" value="anyone having this type of AnonCred can vote" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="141.87" y="1210" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="OeVJVSpPUuf5zKflXX3D-261" value="&lt;div&gt;issues potentailly many&amp;nbsp;&lt;/div&gt;&lt;div&gt;if and only if:&lt;/div&gt;&lt;div&gt;- hash ID is&lt;br&gt;&lt;/div&gt;&lt;div&gt;not already associated &lt;br&gt;&lt;/div&gt;&lt;div&gt;with another user&lt;/div&gt;&lt;div&gt;- potential existing&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;AnonCreds&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;associated&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;with Alice&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;are bound to&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;the same Hash Secret and&amp;nbsp;&lt;/div&gt;&lt;div&gt;the same Hash ID&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="295" y="1010" width="190" height="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
