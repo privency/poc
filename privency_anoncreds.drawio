@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-05-01T22:58:22.797Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="CmhC8rWa2QPGifUSCL3R" version="21.2.1" type="device">
+<mxfile host="Electron" modified="2023-05-01T23:11:56.777Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="ZoBdMboPY-gKSwUQ_O-A" version="21.2.1" type="device">
   <diagram name="Page-1" id="qQwEXMbdSLe5uv3-hXgm">
     <mxGraphModel dx="2284" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -422,14 +422,14 @@
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w4XMIHq6AyRLh-OTriUX-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.863;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" target="w4XMIHq6AyRLh-OTriUX-16" edge="1">
+        <mxCell id="w4XMIHq6AyRLh-OTriUX-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.863;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.583;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="w4XMIHq6AyRLh-OTriUX-16" edge="1" source="w4XMIHq6AyRLh-OTriUX-28">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="787" y="850" as="sourcePoint" />
             <mxPoint x="450" y="760" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w4XMIHq6AyRLh-OTriUX-28" value="With this column, Privency could collude with ACME Issuer to know Alice&#39;s real identity&lt;br&gt;but it is technically impossible to know what she voted for because the voting identifier is using the Secret.&lt;br&gt;This column is necessary to make sure Alice can only associate one OAuth2 account with this ACME identity" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="440" y="840" width="600" height="60" as="geometry" />
+        <mxCell id="w4XMIHq6AyRLh-OTriUX-28" value="With this column, Privency could potentially collude with ACME Issuer to know Alice&#39;s real identity.&lt;br&gt;That would only allow Privency to know that she registered, but NOT what she voted for,&lt;br&gt;because the voting identifier is using the Secret that is private to Alice and never revealed to Privency.&lt;br&gt;This column is necessary to make sure Alice can only associate one OAuth2 account with this ACME identity." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="437.5" y="850" width="600" height="70" as="geometry" />
         </mxCell>
         <mxCell id="w4XMIHq6AyRLh-OTriUX-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" target="w4XMIHq6AyRLh-OTriUX-154" edge="1">
           <mxGeometry relative="1" as="geometry">
@@ -672,10 +672,10 @@
         <mxCell id="w4XMIHq6AyRLh-OTriUX-229" value="...after the vote has went through, Alice changes her mind" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="55" y="1608" width="330" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w4XMIHq6AyRLh-OTriUX-231" value="This column is necessary to make sure the same identifier &lt;br&gt;will always be used to uniquely identify Alice votes in this specific proposal&lt;br&gt;even after she revoked her credentials, and try to vote again.&amp;nbsp;&lt;br&gt;That is because the identifier will be made of this Secret that&#39;s unique per proposal from the user&#39;s perspective." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="426.25" y="905" width="610" height="70" as="geometry" />
+        <mxCell id="w4XMIHq6AyRLh-OTriUX-231" value="This column is necessary to make sure the same identifier &lt;br&gt;will always be used to uniquely identify Alice votes in this specific proposal.&lt;br&gt;If she tries to register with a new Secret, it will not hash to this value and registration will be refused.&lt;br&gt;That is necessary because the user&#39;s voting identifier make use of the Secret to preserve voter&#39;s anonymity." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="920" width="590" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="w4XMIHq6AyRLh-OTriUX-234" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="w4XMIHq6AyRLh-OTriUX-234" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.51;exitY=-0.029;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="w4XMIHq6AyRLh-OTriUX-231">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="741" y="910" as="sourcePoint" />
             <mxPoint x="740" y="820" as="targetPoint" />
