@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-05-01T23:11:56.777Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="ZoBdMboPY-gKSwUQ_O-A" version="21.2.1" type="device">
+<mxfile host="Electron" modified="2023-05-03T12:58:10.306Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="kxixrPfHEV35iX5Y1Lkb" version="21.2.1" type="device">
   <diagram name="Page-1" id="qQwEXMbdSLe5uv3-hXgm">
     <mxGraphModel dx="2284" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -144,7 +144,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="OeVJVSpPUuf5zKflXX3D-191" value="Proposal Info AnonCred" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="210" y="475" width="150" height="180" as="geometry" />
+          <mxGeometry x="210" y="475" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="OeVJVSpPUuf5zKflXX3D-192" value="Proposal ID: 1" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-191" vertex="1">
           <mxGeometry y="30" width="150" height="30" as="geometry" />
@@ -155,11 +155,8 @@
         <mxCell id="OeVJVSpPUuf5zKflXX3D-194" value="Nonce Vote: 3" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-191" vertex="1">
           <mxGeometry y="90" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OeVJVSpPUuf5zKflXX3D-200" value="Secret (blinded when signing): 48294" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-191" vertex="1">
-          <mxGeometry y="120" width="150" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="OeVJVSpPUuf5zKflXX3D-198" value="&lt;div&gt;Signature: Privency&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-191" vertex="1">
-          <mxGeometry y="150" width="150" height="30" as="geometry" />
+          <mxGeometry y="120" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OeVJVSpPUuf5zKflXX3D-204" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="OeVJVSpPUuf5zKflXX3D-201" target="OeVJVSpPUuf5zKflXX3D-203" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -422,7 +419,7 @@
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="w4XMIHq6AyRLh-OTriUX-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.863;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.583;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" target="w4XMIHq6AyRLh-OTriUX-16" edge="1" source="w4XMIHq6AyRLh-OTriUX-28">
+        <mxCell id="w4XMIHq6AyRLh-OTriUX-27" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.863;entryY=1.025;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.583;exitY=0.029;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="w4XMIHq6AyRLh-OTriUX-28" target="w4XMIHq6AyRLh-OTriUX-16" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="787" y="850" as="sourcePoint" />
             <mxPoint x="450" y="760" as="targetPoint" />
@@ -675,7 +672,7 @@
         <mxCell id="w4XMIHq6AyRLh-OTriUX-231" value="This column is necessary to make sure the same identifier &lt;br&gt;will always be used to uniquely identify Alice votes in this specific proposal.&lt;br&gt;If she tries to register with a new Secret, it will not hash to this value and registration will be refused.&lt;br&gt;That is necessary because the user&#39;s voting identifier make use of the Secret to preserve voter&#39;s anonymity." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="440" y="920" width="590" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="w4XMIHq6AyRLh-OTriUX-234" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.51;exitY=-0.029;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" edge="1" source="w4XMIHq6AyRLh-OTriUX-231">
+        <mxCell id="w4XMIHq6AyRLh-OTriUX-234" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.51;exitY=-0.029;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="w4XMIHq6AyRLh-OTriUX-231" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="741" y="910" as="sourcePoint" />
             <mxPoint x="740" y="820" as="targetPoint" />
@@ -890,7 +887,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RCCIjt6ZIgI7EhZnLY2O-24" value="Proposal Info AnonCred" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="166.87" y="2795" width="150" height="180" as="geometry" />
+          <mxGeometry x="166.87" y="2795" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="RCCIjt6ZIgI7EhZnLY2O-25" value="Proposal ID: 1" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="RCCIjt6ZIgI7EhZnLY2O-24" vertex="1">
           <mxGeometry y="30" width="150" height="30" as="geometry" />
@@ -901,11 +898,8 @@
         <mxCell id="RCCIjt6ZIgI7EhZnLY2O-27" value="Nonce Vote: 3" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="RCCIjt6ZIgI7EhZnLY2O-24" vertex="1">
           <mxGeometry y="90" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RCCIjt6ZIgI7EhZnLY2O-28" value="Secret (blinded when signing): &lt;b&gt;48294&lt;/b&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="RCCIjt6ZIgI7EhZnLY2O-24" vertex="1">
-          <mxGeometry y="120" width="150" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="RCCIjt6ZIgI7EhZnLY2O-29" value="&lt;div&gt;Signature: Privency&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="RCCIjt6ZIgI7EhZnLY2O-24" vertex="1">
-          <mxGeometry y="150" width="150" height="30" as="geometry" />
+          <mxGeometry y="120" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RCCIjt6ZIgI7EhZnLY2O-30" value="User Table" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
           <mxGeometry x="478.75" y="2550" width="310" height="130" as="geometry" />
@@ -1274,6 +1268,15 @@
             <mxRectangle width="60" height="40" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="3F-71QPVldhLT8XFaD7U-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RCCIjt6ZIgI7EhZnLY2O-146" target="RCCIjt6ZIgI7EhZnLY2O-146">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="3880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-30" y="3845" />
+              <mxPoint x="-30" y="3880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
         <mxCell id="RCCIjt6ZIgI7EhZnLY2O-146" value="Alice (Holder)" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="-13.130000000000003" y="3800" width="50" height="90" as="geometry" />
         </mxCell>
@@ -1291,7 +1294,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="RCCIjt6ZIgI7EhZnLY2O-149" value="Proposal Info AnonCred" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="116.87" y="3755" width="150" height="180" as="geometry" />
+          <mxGeometry x="116.87" y="3755" width="150" height="150" as="geometry" />
         </mxCell>
         <mxCell id="RCCIjt6ZIgI7EhZnLY2O-150" value="Proposal ID: 1" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="RCCIjt6ZIgI7EhZnLY2O-149" vertex="1">
           <mxGeometry y="30" width="150" height="30" as="geometry" />
@@ -1302,11 +1305,8 @@
         <mxCell id="RCCIjt6ZIgI7EhZnLY2O-152" value="Nonce Vote: 3" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="RCCIjt6ZIgI7EhZnLY2O-149" vertex="1">
           <mxGeometry y="90" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="RCCIjt6ZIgI7EhZnLY2O-153" value="Secret (blinded when signing): &lt;b&gt;10394&lt;/b&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="RCCIjt6ZIgI7EhZnLY2O-149" vertex="1">
-          <mxGeometry y="120" width="150" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="RCCIjt6ZIgI7EhZnLY2O-154" value="&lt;div&gt;Signature: Privency&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="RCCIjt6ZIgI7EhZnLY2O-149" vertex="1">
-          <mxGeometry y="150" width="150" height="30" as="geometry" />
+          <mxGeometry y="120" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="RCCIjt6ZIgI7EhZnLY2O-155" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="RCCIjt6ZIgI7EhZnLY2O-156" target="RCCIjt6ZIgI7EhZnLY2O-157" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -1451,6 +1451,29 @@
         </mxCell>
         <mxCell id="OeVJVSpPUuf5zKflXX3D-261" value="&lt;div&gt;issues potentailly many&amp;nbsp;&lt;/div&gt;&lt;div&gt;if and only if:&lt;/div&gt;&lt;div&gt;- hash ID is&lt;br&gt;&lt;/div&gt;&lt;div&gt;not already associated &lt;br&gt;&lt;/div&gt;&lt;div&gt;with another user&lt;/div&gt;&lt;div&gt;- potential existing&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;AnonCreds&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;associated&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;with Alice&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;are bound to&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;the same Hash Secret and&amp;nbsp;&lt;/div&gt;&lt;div&gt;the same Hash ID&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="295" y="1010" width="190" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="3F-71QPVldhLT8XFaD7U-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="OeVJVSpPUuf5zKflXX3D-173" target="OeVJVSpPUuf5zKflXX3D-173">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="60" y="565" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3F-71QPVldhLT8XFaD7U-4" value="Self-generates &lt;br&gt;&lt;b&gt;Secret = 48294&lt;/b&gt;.&lt;br&gt;Stores it in &lt;br&gt;secure storage.&lt;br&gt;Alice must remember it, &lt;br&gt;Privency cannot recover it." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-68.13" y="515" width="160" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="3F-71QPVldhLT8XFaD7U-5" value="Fetch&lt;br&gt;&lt;b&gt;Secret = 48294&lt;/b&gt;&lt;br&gt;from&lt;br&gt;secure storage." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-90" y="2840" width="110" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="3F-71QPVldhLT8XFaD7U-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RCCIjt6ZIgI7EhZnLY2O-21" target="RCCIjt6ZIgI7EhZnLY2O-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="10" y="2890" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3F-71QPVldhLT8XFaD7U-7" value="Self-generates&lt;br&gt;&lt;b&gt;Secret = 10394&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-130" y="3840" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
