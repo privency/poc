@@ -1,0 +1,33 @@
+{
+  "name": "vc-flow",
+  "version": "1.0.0",
+  "description": "PoC showcasing how to use Verifiable Credentials to properly count votes and to authorize sending messages in a way that enables mitigating spams and DDoS attacks while also providing data verifiability (all users actions are signed with the corresponding proofs) and users privacy (no IP address or application-layer identifiers are correlated to user identity)",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "test": "npm run build && npm start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/privency/poc.git"
+  },
+  "author": "Nicolas Gimenez (Privency)",
+  "license": "BSD-2-Clause-Patent",
+  "bugs": {
+    "url": "https://github.com/privency/poc/issues"
+  },
+  "homepage": "https://github.com/privency/poc#readme",
+  "devDependencies": {
+    "@types/uuid": "^9.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.59.2",
+    "@typescript-eslint/parser": "^5.59.2",
+    "eslint": "^8.40.0",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@docknetwork/crypto-wasm-ts": "^0.32.0",
+    "@types/node": "^20.1.0",
+    "uuid": "^9.0.0"
+  }
+}
