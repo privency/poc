@@ -2,7 +2,7 @@
 
 ## How does it work?
 
-![How It Works](./zkorum_vote_protocol.png.drawio.png)
+![How It Works](./zkorum_vote_protocol.png)
 
 ## Low-level implementation
 
