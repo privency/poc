@@ -1,4 +1,4 @@
-<mxfile host="Electron" modified="2023-06-05T13:17:34.110Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="SZEz24LhMFSjSQg7Qw6h" version="21.2.1" type="device">
+<mxfile host="Electron" modified="2023-06-05T16:30:57.771Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/21.2.1 Chrome/112.0.5615.87 Electron/24.1.2 Safari/537.36" etag="eiccDWdWM0nAP5u4U4rY" version="21.2.1" type="device">
   <diagram name="Page-1" id="qQwEXMbdSLe5uv3-hXgm">
     <mxGraphModel dx="2284" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -24,28 +24,28 @@
           <mxGeometry x="500" y="120" width="50" height="90" as="geometry" />
         </mxCell>
         <mxCell id="OeVJVSpPUuf5zKflXX3D-6" value="ACME Student VC" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;fillColor=default;" parent="1" vertex="1">
-          <mxGeometry x="260" y="100" width="150" height="240" as="geometry" />
+          <mxGeometry x="260" y="100" width="160" height="240" as="geometry" />
         </mxCell>
-        <mxCell id="OeVJVSpPUuf5zKflXX3D-10" value="UUID:&amp;nbsp;9836c10c-09a1-4666-9d8f-445c9d57d657" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-6" vertex="1">
-          <mxGeometry y="30" width="150" height="30" as="geometry" />
+        <mxCell id="OeVJVSpPUuf5zKflXX3D-10" value="&lt;b&gt;UUID:&amp;nbsp;9836c10c-09a1-4666-9d8f-445c9d57d657&lt;/b&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-6" vertex="1">
+          <mxGeometry y="30" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OeVJVSpPUuf5zKflXX3D-7" value="&lt;div&gt;Name: Alice&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-6" vertex="1">
-          <mxGeometry y="60" width="150" height="30" as="geometry" />
+          <mxGeometry y="60" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OeVJVSpPUuf5zKflXX3D-8" value="Surname: Dupont" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-6" vertex="1">
-          <mxGeometry y="90" width="150" height="30" as="geometry" />
+          <mxGeometry y="90" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OeVJVSpPUuf5zKflXX3D-9" value="Addr: 3 rue charles, Paris" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-6" vertex="1">
-          <mxGeometry y="120" width="150" height="30" as="geometry" />
+          <mxGeometry y="120" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OeVJVSpPUuf5zKflXX3D-13" value="Age: 23" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-6" vertex="1">
-          <mxGeometry y="150" width="150" height="30" as="geometry" />
+          <mxGeometry y="150" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OeVJVSpPUuf5zKflXX3D-14" value="&lt;div&gt;Status: Student&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-6" vertex="1">
-          <mxGeometry y="180" width="150" height="30" as="geometry" />
+          <mxGeometry y="180" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OeVJVSpPUuf5zKflXX3D-17" value="&lt;div&gt;Signature: University&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-6" vertex="1">
-          <mxGeometry y="210" width="150" height="30" as="geometry" />
+          <mxGeometry y="210" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OeVJVSpPUuf5zKflXX3D-16" value="Internal Acme DB containing all students info" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" parent="1" vertex="1">
           <mxGeometry x="600" y="120" width="80" height="140" as="geometry" />
@@ -116,13 +116,13 @@
         <mxCell id="OeVJVSpPUuf5zKflXX3D-207" value="Poll ID: 1" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-206" vertex="1">
           <mxGeometry y="30" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OeVJVSpPUuf5zKflXX3D-211" value="&lt;div&gt;&lt;b&gt;&quot;Pseudonym Secret&quot;&lt;/b&gt; = pedersenCommitment(base: surveyIDToRegistrationBase(1), secret: 48294) = &lt;b&gt;qzkdf9&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-206" vertex="1">
+        <mxCell id="OeVJVSpPUuf5zKflXX3D-211" value="&lt;div&gt;&lt;b&gt;&quot;Pseudonym Secret&quot;&lt;/b&gt; = pedersenCommitment(base: surveyIDToRegistrationBase(&lt;b&gt;1&lt;/b&gt;), secret: &lt;b&gt;48294&lt;/b&gt;) = &lt;b&gt;qzkdf9&lt;/b&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-206" vertex="1">
           <mxGeometry y="60" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="w4XMIHq6AyRLh-OTriUX-1" value="&lt;b&gt;Blinded Secret + Proof&lt;/b&gt; that this Secret was used to generate &quot;Pseudonym Secret&quot;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-206" vertex="1">
           <mxGeometry y="130" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="OeVJVSpPUuf5zKflXX3D-212" value="&lt;div&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&quot;Pseudonym ID&quot;&lt;/b&gt;&amp;nbsp;= pedersenCommitment(base: surveyIDToRegistrationBase(1), UUID: 9836c...657) =&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;bskjdf98&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-206" vertex="1">
+        <mxCell id="OeVJVSpPUuf5zKflXX3D-212" value="&lt;div&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&quot;Pseudonym ID&quot;&lt;/b&gt;&amp;nbsp;= pedersenCommitment(base: surveyIDToRegistrationBase(1), UUID: &lt;b&gt;9836c...657&lt;/b&gt;) =&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;bskjdf98&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-206" vertex="1">
           <mxGeometry y="180" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SZY4pL0iLruYxgR92BpV-12" value="&lt;b&gt;Blinded ACME UUID&lt;/b&gt; &lt;b&gt;+ Proof&lt;/b&gt; that this UUID was used to generate the above Pseudonym and that this UUID was extracted by a valid non-revoked ACME Student VC" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-206" vertex="1">
@@ -155,10 +155,10 @@
         <mxCell id="OeVJVSpPUuf5zKflXX3D-264" value="Poll ID: 1" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-263" vertex="1">
           <mxGeometry y="90" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="OeVJVSpPUuf5zKflXX3D-288" value="Blinded Secret =&amp;nbsp;48294" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-263" vertex="1">
+        <mxCell id="OeVJVSpPUuf5zKflXX3D-288" value="Blinded Secret =&amp;nbsp;&lt;b&gt;48294&lt;/b&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-263" vertex="1">
           <mxGeometry y="120" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="w4XMIHq6AyRLh-OTriUX-30" value="Blinded ACME UUID = 9836c...657" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-263" vertex="1">
+        <mxCell id="w4XMIHq6AyRLh-OTriUX-30" value="Blinded ACME UUID = &lt;b&gt;9836c...657&lt;/b&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-263" vertex="1">
           <mxGeometry y="170" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="OeVJVSpPUuf5zKflXX3D-268" value="&lt;div&gt;Signature: ZKorum&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="OeVJVSpPUuf5zKflXX3D-263" vertex="1">
@@ -330,7 +330,7 @@
         <mxCell id="w4XMIHq6AyRLh-OTriUX-75" value="Response: No (CID)" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="w4XMIHq6AyRLh-OTriUX-56" vertex="1">
           <mxGeometry y="60" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="w4XMIHq6AyRLh-OTriUX-58" value="&lt;b&gt;&quot;Pseudonym Vote&quot; &lt;/b&gt;= pedersenCommitment(base: surveyIDToVoteBase(1), secret: 48294, UUID: 9836c...657) = &lt;b&gt;034kd9&lt;/b&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="w4XMIHq6AyRLh-OTriUX-56" vertex="1">
+        <mxCell id="w4XMIHq6AyRLh-OTriUX-58" value="&lt;b&gt;&quot;Pseudonym Vote&quot; &lt;/b&gt;= pedersenCommitment(base: surveyIDToVoteBase(1), secret: &lt;b&gt;48294&lt;/b&gt;, UUID: &lt;b&gt;9836c...657&lt;/b&gt;) = &lt;b&gt;034kd9&lt;/b&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="w4XMIHq6AyRLh-OTriUX-56" vertex="1">
           <mxGeometry y="90" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="w4XMIHq6AyRLh-OTriUX-61" value="&lt;div&gt;Status: Student&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="w4XMIHq6AyRLh-OTriUX-56" vertex="1">
@@ -458,7 +458,7 @@
         <mxCell id="w4XMIHq6AyRLh-OTriUX-183" value="No" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="513.37" y="1842" width="57.5" height="18" as="geometry" />
         </mxCell>
-        <mxCell id="w4XMIHq6AyRLh-OTriUX-198" value="🕒 schedule-send from frontend&lt;br&gt;whenever privacy is protected &lt;br&gt;(enough people have registered and not voted yet, &lt;br&gt;and enough time has passed after Alice&#39;s registration)&lt;br&gt;Server uses TSA to attest vote timestamp, and publish those on libp2p topic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="w4XMIHq6AyRLh-OTriUX-198" value="🕒 &lt;b&gt;schedule-send&lt;/b&gt; from frontend&lt;br&gt;whenever privacy is protected &lt;br&gt;(enough people have registered and not voted yet, &lt;br&gt;and enough time has passed after Alice&#39;s registration)&lt;br&gt;Server uses TSA to attest vote timestamp, and publish those on libp2p topic" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="46.870000000000005" y="1618" width="430" height="90" as="geometry" />
         </mxCell>
         <mxCell id="w4XMIHq6AyRLh-OTriUX-213" value="Response table" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;" parent="1" vertex="1">
@@ -981,7 +981,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="3F-71QPVldhLT8XFaD7U-4" value="Self-generates &lt;br&gt;&lt;b&gt;Secret&amp;nbsp;&lt;/b&gt;&lt;b&gt;= &lt;br&gt;Autogenerated Cryptographically &lt;br&gt;Random&amp;nbsp;&lt;/b&gt;&lt;b&gt;32 bytes&lt;/b&gt;&lt;br&gt;= 48294 (for ex. sake)&lt;br&gt;Stores it in &lt;br&gt;secure storage.&lt;br&gt;Alice must remember it.&lt;br&gt;ZKorum cannot recover it." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+        <mxCell id="3F-71QPVldhLT8XFaD7U-4" value="Self-generates &lt;br&gt;&lt;b&gt;Secret&amp;nbsp;&lt;/b&gt;&lt;b&gt;= &lt;br&gt;Autogenerated Cryptographically &lt;br&gt;Random&amp;nbsp;&lt;/b&gt;&lt;b&gt;32 bytes&lt;/b&gt;&lt;br&gt;= &lt;b&gt;48294&lt;/b&gt; (for ex. sake)&lt;br&gt;Stores it in &lt;br&gt;secure storage.&lt;br&gt;Alice must remember it.&lt;br&gt;ZKorum cannot recover it." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-145" y="495" width="210" height="140" as="geometry" />
         </mxCell>
         <mxCell id="3F-71QPVldhLT8XFaD7U-5" value="Fetch&lt;br&gt;&lt;b&gt;Secret = 48294&lt;/b&gt;&lt;br&gt;from&lt;br&gt;secure storage" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
@@ -1126,7 +1126,7 @@
         <mxCell id="SZY4pL0iLruYxgR92BpV-46" value="Response: Yes (CID)" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-44" vertex="1">
           <mxGeometry y="60" width="200" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SZY4pL0iLruYxgR92BpV-47" value="&lt;b&gt;&quot;Pseudonym Vote&quot; &lt;/b&gt;= pedersenCommitment(base: surveyIDToVoteBase(1), secret: 48294, UUID: 9836c...657) = &lt;b&gt;034kd9&lt;/b&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-44" vertex="1">
+        <mxCell id="SZY4pL0iLruYxgR92BpV-47" value="&lt;b&gt;&quot;Pseudonym Vote&quot; &lt;/b&gt;= pedersenCommitment(base: surveyIDToVoteBase(1), secret: &lt;b&gt;48294&lt;/b&gt;, UUID: &lt;b&gt;9836c...657&lt;/b&gt;) = &lt;b&gt;034kd9&lt;/b&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-44" vertex="1">
           <mxGeometry y="90" width="200" height="90" as="geometry" />
         </mxCell>
         <mxCell id="SZY4pL0iLruYxgR92BpV-48" value="&lt;div&gt;Status: Student&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-44" vertex="1">
@@ -1314,7 +1314,7 @@
         <mxCell id="SZY4pL0iLruYxgR92BpV-94" value="&lt;b&gt;Blinded Secret + Proof&lt;/b&gt; that this Secret was used to generate &quot;Pseudonym Secret&quot;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-91" vertex="1">
           <mxGeometry y="130" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="SZY4pL0iLruYxgR92BpV-95" value="&lt;div&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&quot;Pseudonym ID&quot;&lt;/b&gt;&amp;nbsp;= pedersenCommitment(base: surveyIDToRegistrationBase(1), UUID: 9836c...657) =&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;bskjdf98&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-91" vertex="1">
+        <mxCell id="SZY4pL0iLruYxgR92BpV-95" value="&lt;div&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&quot;Pseudonym ID&quot;&lt;/b&gt;&amp;nbsp;= pedersenCommitment(base: surveyIDToRegistrationBase(1), UUID: &lt;b&gt;9836c...657&lt;/b&gt;) =&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;bskjdf98&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-91" vertex="1">
           <mxGeometry y="180" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SZY4pL0iLruYxgR92BpV-96" value="&lt;b&gt;Blinded ACME UUID&lt;/b&gt; &lt;b&gt;+ Proof&lt;/b&gt; that this UUID was used to generate the above Pseudonym and that this UUID was extracted by a valid non-revoked ACME Student VC" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-91" vertex="1">
@@ -1404,10 +1404,10 @@
         <mxCell id="SZY4pL0iLruYxgR92BpV-116" value="Poll ID: 1" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-113" vertex="1">
           <mxGeometry y="90" width="150" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="SZY4pL0iLruYxgR92BpV-117" value="Blinded Secret =&amp;nbsp;48294" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-113" vertex="1">
+        <mxCell id="SZY4pL0iLruYxgR92BpV-117" value="Blinded Secret =&amp;nbsp;&lt;b&gt;48294&lt;/b&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-113" vertex="1">
           <mxGeometry y="120" width="150" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="SZY4pL0iLruYxgR92BpV-118" value="Blinded ACME UUID = 9836c...657" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-113" vertex="1">
+        <mxCell id="SZY4pL0iLruYxgR92BpV-118" value="Blinded ACME UUID = &lt;b&gt;9836c...657&lt;/b&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-113" vertex="1">
           <mxGeometry y="170" width="150" height="30" as="geometry" />
         </mxCell>
         <mxCell id="SZY4pL0iLruYxgR92BpV-119" value="&lt;div&gt;Signature: ZKorum&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-113" vertex="1">
@@ -1442,7 +1442,7 @@
         <mxCell id="SZY4pL0iLruYxgR92BpV-144" value="&lt;b&gt;Blinded Secret + Proof&lt;/b&gt; that this Secret was used to generate &quot;Pseudonym Secret&quot;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-141" vertex="1">
           <mxGeometry y="130" width="200" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="SZY4pL0iLruYxgR92BpV-145" value="&lt;div&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&quot;Pseudonym ID&quot;&lt;/b&gt;&amp;nbsp;= pedersenCommitment(base: surveyIDToRegistrationBase(1), UUID: 9836c...657) =&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;bskjdf98&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-141" vertex="1">
+        <mxCell id="SZY4pL0iLruYxgR92BpV-145" value="&lt;div&gt;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;&quot;Pseudonym ID&quot;&lt;/b&gt;&amp;nbsp;= pedersenCommitment(base: surveyIDToRegistrationBase(1), UUID: &lt;b&gt;9836c...657&lt;/b&gt;) =&amp;nbsp;&lt;b style=&quot;border-color: var(--border-color);&quot;&gt;bskjdf98&lt;/b&gt;&lt;br&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-141" vertex="1">
           <mxGeometry y="180" width="200" height="70" as="geometry" />
         </mxCell>
         <mxCell id="SZY4pL0iLruYxgR92BpV-146" value="&lt;b&gt;Blinded ACME UUID&lt;/b&gt; &lt;b&gt;+ Proof&lt;/b&gt; that this UUID was used to generate the above Pseudonym and that this UUID was extracted by a valid non-revoked ACME Student VC" style="text;strokeColor=none;fillColor=default;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" parent="SZY4pL0iLruYxgR92BpV-141" vertex="1">
