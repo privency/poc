@@ -15,6 +15,6 @@ The functionality has been implemented in the Dock [crypto-wasm-ts](https://gith
 
 This was the first theoretical draft of the protocol.
 
-Since then, the protocol has been implemented and used within an MVP used by 200+ users.
+Since then, the protocol has been implemented and used within an MVP used by 200+ users, see "front", "back" and "shared" services of https://github.com/zkorum/zkorum/tree/main/services
 
 A more comprehensive explanation is available here: https://ssimeetup.org/zkorum-building-next-generation-eagora-powered-ssi-webinar-70-nicolas-gimenez/
